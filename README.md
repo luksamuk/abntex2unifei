@@ -60,6 +60,7 @@ removidos do projeto:
 	e folha de aprovação (esta última exclusiva do abntex2unifei).
 
 - introducao.tex
+
 	Exemplo de introdução do trabalho.
 
 - referencialteorico.tex
@@ -92,7 +93,7 @@ Recomenda-se o uso da IDE Texmaker para uma melhor integração com o LaTeX, ou
 sites como ShareLatex para uma edição online e compartilhada.
 
 Você pode, também, realizar o download das bibliotecas principais do LaTeX usando
-os instaladores do TeXlive (Windows, Linux, OSX - recomendado), ou MikTeX (Windows).
+os instaladores do TeXLIVE (Windows, Linux, OSX - recomendado), ou MikTeX (Windows).
 Lembre-se de que a instalação destes componentes pode ser um download grande
 (em torno de 11GB).
 
