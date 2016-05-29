@@ -1,0 +1,84 @@
+% Os elementos a seguir aparecerão antes do início do artigo em si.
+
+% Espaçamento de 1,5cm por linha
+\OnehalfSpacing
+
+% Capa
+\imprimircapa
+
+% Folha de rosto
+\imprimirfolhaderosto
+
+% Folha de aprovação
+% COMANDO EXCLUSIVO DA ABNTEX2UNIFEI.
+\imprimirfolhadeaprovacao{Este Trabalho de Pesquisa foi julgado, como requisito parcial, para aprovação na disciplina Xxxxxxx da Engenharia Xxxxxxxxxx da Universidade Federal de Itajubá – \textit{campus} Itabira.}
+
+
+% Espaço reservado a dedicatórias
+\begin{dedicatoria}
+\null
+\vfill
+Espaço reservado à dedicatória, elemento opcional destinado a homenagear pessoas importantes na vida do autor do trabalho.
+\end{dedicatoria}
+
+
+% Agradecimentos
+\begin{agradecimentos}[Agradecimentos]
+Elemento opcional que é utilizado para agradecer a pessoas ou instituições que contribuíram com a realização do trabalho.
+\end{agradecimentos}
+
+% Epígrafe
+\begin{epigrafe}
+\null
+\vfill
+Espaço reservado à epígrafe, elemento opcional, elaborado conforme a ABNT NBR 10520, em que se transcreve uma citação literal, com autoria, referente ao assunto abordado no trabalho.
+\end{epigrafe}
+
+
+% Resumo
+\begin{resumo}
+Elemento obrigatório que apresenta uma sequência de frases objetivas e concisas, de 150 a 500 palavras, seguido de palavras-chave, as quais representam o conteúdo do trabalho. Geralmente apresenta: tema central, objetivo da pesquisa, aporte teórico, metodologia empregada, resultados e conclusões (tudo bem sucinto e sem citações).
+
+
+Palavras-chave: 3 a 5 palavras-chave. Separadas entre si por ponto.
+\end{resumo}
+
+\begin{resumo}[Abstract]
+Apresentação, em inglês, do resumo que apresente o conteúdo de todo o trabalho (tema central, objetivo da pesquisa, aporte teórico, metodologia empregada, resultados e conclusões).
+
+
+Keywords: 3 a 5 palavras-chave. Separadas entre si por ponto. Todas em inglês.
+\end{resumo}
+
+
+
+% Lista de Figuras
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+
+% Lista de Tabelas
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\cleardoublepage
+
+% Lista de Abreviaturas e Siglas
+\begin{siglas}
+  \item[Embrapa] Empresa Brasileira de Pesquisa Agropecuária
+  \item[IBGE] Instituto Brasileiro de Geografia e Estatística
+\end{siglas}
+
+% Lista de Símbolos
+\begin{simbolos}
+  \item[$ \Gamma $] Letra grega Gama
+  \item[$ \Lambda $] Lambda
+  \item[$ \zeta $] Letra grega minúscula zeta
+  \item[$ \in $] Pertence
+  \item[O(n)] Ordem de um algoritmo
+  \item[©] Copyright
+\end{simbolos}
+
+% Sumário
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
