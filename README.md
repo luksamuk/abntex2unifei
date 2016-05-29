@@ -4,9 +4,16 @@ abntex2unifei - v0.1
 Extensão da classe abntex2, segundo as normas convencionais da Universidade
 Federal de Itajubá - Campus Itabira.
 
+
 Criador e Mantenedor: Lucas Samuel Vieira (luksamuk)
+
+
 Contato:
+
+
 lucas.samuel2002 (arroba) gmail (ponto) com
+
+
 luksamuk (arroba) unifei (ponto) edu (ponto) br
 
 
@@ -38,33 +45,52 @@ elementos relevantes. O projeto está dividido em diversos arquivos relevantes,
 como citado a seguir, e elementos desnecessários podem ser comentados ou
 removidos do projeto:
 
-- main.tex\\
+- main.tex
+
 	O arquivo principal, de onde o projeto será compilado.
-- config.tex\\
+
+- config.tex
+
 	Arquivo com configurações de preâmbulo - definições de documento e inclusão
 	de bibliotecas necessárias.
-- pretextual.tex\\
+
+- pretextual.tex
+
 	Arquivo com elementos de pré-texto, como agradecimentos, dedicatórias, resumo
 	e folha de aprovação (esta última exclusiva do abntex2unifei).
-- introducao.tex\\
+
+- introducao.tex
 	Exemplo de introdução do trabalho.
-- referencialteorico.tex\\
+
+- referencialteorico.tex
+
 	Exemplo de referencial teórico do trabalho.
-- metodologia.tex\\
+
+- metodologia.tex
+
 	Exemplo de metodologia do trabalho.
-- consideracoesfinais.tex\\
+
+- consideracoesfinais.tex
+
 	Exemplo de considerações finais do trabalho.
-- postextual.tex\\
+
+- postextual.tex
+
 	Arquivo com elementos de pós-texto, como inclusão do arquivo de referências
 	bibliográficas, apêndices e anexos.
-- refs.bib\\
+
+- refs.bib
+
 	Exemplo de arquivo de bibliografia. Inclui exemplo de bibliografia via
 	website para trabalhos e referências futuras.
-- main.pdf\\
+
+- main.pdf
+
 	Exemplo de PDF gerado pelo LaTeX, quando aplicado o template.
 
 Recomenda-se o uso da IDE Texmaker para uma melhor integração com o LaTeX, ou
 sites como ShareLatex para uma edição online e compartilhada.
+
 Você pode, também, realizar o download das bibliotecas principais do LaTeX usando
 os instaladores do TeXlive (Windows, Linux, OSX - recomendado), ou MikTeX (Windows).
 Lembre-se de que a instalação destes componentes pode ser um download grande
@@ -77,6 +103,7 @@ Você pode contribuir para este projeto ou solicitar mudanças, caso veja alguma
 inconsistência, enviando-me um email (meus contatos estão acima) ou utilizando,
 preferencialmente, a página de Issues do GitHub para o repositório desta
 extensão (https://github.com/luksamuk/abntex2unifei/issues).
+
 Você também pode realizar um fork deste repositório e fazer as suas próprias
 modificações, e então enviá-las através de um pull request. Neste caso, você
 será também apontado como colaborador deste projeto.
@@ -92,15 +119,18 @@ que você:
 - Pode modificá-la;
 - Pode usá-la em um projeto privado, sem redistribuí-la.
 
+
 Da mesma forma, você:
 
 - NÃO pode responsabilizar criadores, mantenedores ou contribuidores por
 quaisquer danos causados por esta extensão, uma vez que este software é
 redistribuido sem garantia.
 
+
 E tudo isso, desde que você:
 
 - Inclua uma cópia da licença referida em seu uso desta extensão, ao
 redistribui-la.
+
 
 Para mais informações, consulte o site http://choosealicense.com/.
