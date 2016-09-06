@@ -97,6 +97,10 @@ os instaladores do TeXLIVE (Windows, Linux, OSX - recomendado), ou MikTeX (Windo
 Lembre-se de que a instalação destes componentes pode ser um download grande
 (em torno de 11GB).
 
+Se você estiver usando Linux, pessoalmente recomendo o uso de um wrapper para
+os compiladores TeX (LaTeX, XeTeX, BibTeX) chamado rubber. Você vai encontrá-lo
+facilmente nos repositórios oficiais do Ubuntu ou no repositório Community
+do Arch Linux.
 
 Contribuindo
 ------------
