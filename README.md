@@ -1,4 +1,6 @@
-abntex2unifei - v0.1
+<center>![Logo](abntex2unifei_logo.png)</center>
+
+abntex2unifei - v0.2
 =============
 
 Extensão da classe abntex2, segundo as normas convencionais da Universidade
