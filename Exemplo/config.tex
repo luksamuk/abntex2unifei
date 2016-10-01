@@ -77,3 +77,41 @@
 \setlength{\parindent}{1.3cm}
 % Controle do espaçamento entre um parágrafo e outro:
 \setlength{\parskip}{0.3cm}  % tente também \onelineskip
+
+
+
+%%%% CONFIGURAÇÕES DO TRABALHO %%%%
+% Mude estes comandos para adequar seu trabalho a eles.
+
+% Informações de dados para CAPA e FOLHA DE ROSTO
+\titulo{Título do Trabalho}
+\autor{Zé da Silva \\ João da Silva}
+\local{Itabira}
+\data{2016}
+\instituicao{Universidade Federal de Itajubá - \textit{Campus} Itabira}
+\tipotrabalho{Trabalho de Conclusão de Curso}
+\orientador{Fessor dos Santos}
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração.
+%Estas informações serão impressas, por exemplo, na sua folha de rosto.
+\preambulo{Trabalho de Conclusão de Curso de um discente da Universidade Federal de Itajubá - \textit{Campus} Itabira}
+
+
+% Configurações gerais do PDF gerado (cor dos links, etc)
+% Parte destes dados são gerados automaticamente.
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={Zé da Silva},
+		pdfkeywords={abntex2}{abntex2unifei}{latex}{texto}, 
+		colorlinks=true,    % Links coloridos. Falso para criar caixas ao redor
+        linkcolor=black,    % Cor de links internos (seções, etc)
+    	citecolor=black,    % Cor de links para a bibliografia
+    	filecolor=magenta,  % Cor de links para arquivos
+		urlcolor=blue,      % Cor de links para URLs da web
+		bookmarksdepth=4
+}
+\makeatother

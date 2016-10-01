@@ -54,7 +54,8 @@ removidos do projeto:
 - config.tex
 
 	Arquivo com configurações de preâmbulo - definições de documento e inclusão
-	de bibliotecas necessárias.
+	de bibliotecas necessárias. Também inclui configurações gerais do projeto
+    (título, autor(es), etc.
 
 - pretextual.tex
 
