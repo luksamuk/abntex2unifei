@@ -1,4 +1,4 @@
-<center>![Logo](abntex2unifei_logo.png)</center>
+![Logo](abntex2unifei_logo.png)
 
 abntex2unifei - v0.2
 =============
@@ -7,16 +7,11 @@ Extensão da classe abntex2, segundo as normas convencionais da Universidade
 Federal de Itajubá - Campus Itabira.
 
 
-Criador e Mantenedor: Lucas Samuel Vieira (luksamuk)
+Criador e Mantenedor: Lucas Vieira <lucasvieira@protonmail.com>
 
 
-Contato:
-
-
-lucas.samuel2002 (arroba) gmail (ponto) com
-
-
-luksamuk (arroba) unifei (ponto) edu (ponto) br
+> ATENÇÃO! Este projeto já não está sendo mantido mais por mim.
+> Fique à vontade para utilizá-lo, mas lembre-se de que alterações futuras requerem um fork.
 
 
 O que é
